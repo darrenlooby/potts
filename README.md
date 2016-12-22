@@ -8,7 +8,7 @@ When a thing needs to be done, the overall effort can be complex and involve sev
 
 We create an **Issue** and allow it to *Listen* out for and *Trigger* **Events**.
 
-When an **Event** occurs - those **Issues** that are *Listening* can change their own ***State***; such as active or inactive, or who they are assigned to. An **Issue** that *Triggers* an **Event** can also send **Webhooks** to other services. **Event Handlders** and incoming **Webhooks** can *Trigger* the creation of new **Issues** or **Issue Set**.
+When an **Event** occurs - those **Issues** that are *Listening* can change their own ***State***; such as active or inactive, or who they are assigned to. An **Issue** that *Triggers* an **Event** can also send **Webhooks** to other services. **Event Handlers** and incoming **Webhooks** can *Trigger* the creation of new **Issues** or **Issue Set**.
 
 Each **Event** that is *Listened* to is *Handled* by an **Event Handler**
 
