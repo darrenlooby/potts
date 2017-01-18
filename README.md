@@ -1,16 +1,16 @@
 # Potts
 
-Potts effort tracker.
+Potts Effort Tracker.
 
 We've taken the concepts of [mechanical turk](https://en.wikipedia.orgwiki/Amazon_Mechanical_Turk), and [event based applications](https://en.wikipedia.org/wiki/Event-driven_programming) and applied them to the problem of planning and tracking effort.
 
-When a thing needs to be done, the overall effort can be complex and involve several people in different teams. Moreover, actions might need to be repeated, or skipped, or added after the initial obervation that our thing needs to be done.
+When a thing needs to be done, the overall effort can be complex and involve several people in different teams. Moreover, actions might need to be repeated, or skipped, or added after the initial observation that our thing needs to be done.
 
-We create an **Issue** and allow it to *Listen* out for and *Trigger* **Events**.
+We create an [Issue](/docs/definitions/issues.md) and allow it to *Listen* out for and *Trigger* [Events](/docs/definitions/events.md).
 
-When an **Event** occurs - those **Issues** that are *Listening* can change their own ***State***; such as active or inactive, or who they are assigned to. An **Issue** that *Triggers* an **Event** can also send **Webhooks** to other services. **Event Handlers** and incoming **Webhooks** can *Trigger* the creation of new **Issues** or **Issue Set**.
+When an [Event](/docs/definitions/events.md) occurs - those [Issues](/docs/definitions/issues.md) that are *Listening* can change their own [State](/docs/definitions/states.md); such as active or inactive, or who they are assigned to. An [Issues](/docs/definitions/issues.md) that *Triggers* an [Event](/docs/definitions/events.md) can also send [Webhooks](/docs/definitions/webhooks.md) to other [Services](/docs/definitions/services.md). [Event](/docs/definitions/events.md) [Handers](/docs/definitions/handers.md) and incoming [Webhooks](/docs/definitions/webhooks.md) can *Trigger* the creation of new [Issue](/docs/definitions/issues.md) or [Issue Sets](/docs/definitions/issue-sets.md).
 
-Each **Event** that is *Listened* to is *Handled* by an **Event Handler**
+Each [Events](/docs/definitions/events.md) that is *Listened* to is *Handled* by an [Event](/docs/definitions/events.md) [Handers](/docs/definitions/handers.md).
 
 ## Definitions
 
@@ -25,6 +25,8 @@ Each **Event** that is *Listened* to is *Handled* by an **Event Handler**
 [Issue Sets](/docs/definitions/issue-sets.md)
 
 [States](/docs/definitions/states.md)
+
+[References](/docs/definitions/references.md)
 
 [Events](/docs/definitions/events.md)
 
