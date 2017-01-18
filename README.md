@@ -12,30 +12,11 @@ When an **Event** occurs - those **Issues** that are *Listening* can change thei
 
 Each **Event** that is *Listened* to is *Handled* by an **Event Handler**
 
-## Issue
+## Definitions
 
-An **Issue** is a set of parameters that create a ***State***, **Actions** that need to be taken, and **References**.
+[Issues](blankbox/potts/blob/master/docs/issues.md)
 
-``Bug is found``
-
-With the example of a bug being found, a number of **Actions** are needed to remedy.
-
-## Actions
-
-An *Action* is a decrete piece of work that needs to be done by single **Actor**.
-
-``Dev: Fix bug``
-``QA: Test replication of bug``
-``Systems: Upload changeset to staging environment``
- 
-An **Action** object contains
-
-- parameters
-- dependancies
-- description of the action
-- reference to Actor
-
-**Actions** are scoped to their parent **Issue** and can *Trigger* **Events** outside of their scope. This means that only their parent **Issue** can alter them, or listen to their state.
+[Actions](blankbox/potts/blob/master/docs/actions.md)
 
 ## Actors
 
