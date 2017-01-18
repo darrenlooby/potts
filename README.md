@@ -14,17 +14,15 @@ Each **Event** that is *Listened* to is *Handled* by an **Event Handler**
 
 ## Definitions
 
-[Issues](/docs/issues.md)
+[Issues](/docs/definitions/issues.md)
 
-[Actions](/docs/actions.md)
+[Actions](/docs/definitions/actions.md)
 
-## Actors
+[Actors](/docs/definitions/actors.md)
 
-An **Actor** is person or machine that can perform an **Action**.
+[Issue Templates](/docs/definitions/issue-templates.md)
 
-## Issue Template
 
-An **Issue Template** is a collection of predefined **Actions** and **References**, and default **State**.
 
 ## Issue Set
 
