@@ -14,9 +14,9 @@ Each **Event** that is *Listened* to is *Handled* by an **Event Handler**
 
 ## Definitions
 
-[Issues](blankbox/potts/blob/master/docs/issues.md)
+[Issues](/blankbox/potts/blob/master/docs/issues.md)
 
-[Actions](blankbox/potts/blob/master/docs/actions.md)
+[Actions](/blankbox/potts/blob/master/docs/actions.md)
 
 ## Actors
 
