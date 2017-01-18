@@ -14,24 +14,39 @@ Each [Events](/docs/definitions/events.md) that is *Listened* to is *Handled* by
 
 ## Definitions
 
+### Issues
+
 [Issues](/docs/definitions/issues.md)
-
-[Actions](/docs/definitions/actions.md)
-
-[Actors](/docs/definitions/actors.md)
 
 [Issue Templates](/docs/definitions/issue-templates.md)
 
 [Issue Sets](/docs/definitions/issue-sets.md)
 
+### States
+
 [States](/docs/definitions/states.md)
 
+### Actions
+
+[Actions](/docs/definitions/actions.md)
+
+[Actors](/docs/definitions/actors.md)
+
+### References
+
 [References](/docs/definitions/references.md)
+
+[Tags](/docs/definitions/tags.md)
+
+
+
+### Events
 
 [Events](/docs/definitions/events.md)
 
 [Handers](/docs/definitions/handers.md)
 
+### External Interaction
 
 [Webhooks](/docs/definitions/webhooks.md)
 
