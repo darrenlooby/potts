@@ -35,20 +35,29 @@ An **Action** object contains
 - description of the action
 - reference to Actor
 
+**Actions** are scoped to their parent **Issue** and can *Trigger* **Events** outside of their scope. This means that only their parent **Issue** can alter them, or listen to their state.
+
 ## Actors
 
 An **Actor** is person or machine that can perform an **Action**.
 
-
 ## Issue Template
 
+An **Issue Template** is a collection of predefined **Actions** and **References**, and default **State**.
+
 ## Issue Set
+
+An **Issue Set** is a collection of **Issue Templates** that can be applied in a single process.
+
+## State
+
+A **State** is a collection of parameters for an object that can be *Listened* to. Some parameters do not *Trigger* **Events** - such as references. Creating or updating a **Reference** for an **Issue** does not *Trigger* an **Event**.
 
 ## Event
 
 Events are changes of **State** for some **Issue** or **Service**; or points in **Time**.
 
-This means that an **Event** can be *Triggered* by a new **Issue** being created, an **Issue** being updated or change, a point in **Time** being reached, an amout of **Time** elapsing, or after having recieved a message from a **Service**.
+This means that an **Event** can be *Triggered* by a new **Issue** being created, an **Issue** being updated or changed, a point in **Time** being reached, an amout of **Time** elapsing, or after having recieved a message from a **Service**.
 
 ## Handlers
 
