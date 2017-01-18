@@ -14,6 +14,32 @@ Each **Event** that is *Listened* to is *Handled* by an **Event Handler**
 
 ## Issue
 
+An **Issue** is a set of parameters that create a ***State***, **Actions** that need to be taken, and **References**.
+
+``Bug is found``
+
+With the example of a bug being found, a number of **Actions** are needed to remedy.
+
+## Actions
+
+An *Action* is a decrete piece of work that needs to be done by single **Actor**.
+
+``Dev: Fix bug``
+``QA: Test replication of bug``
+``Systems: Upload changeset to staging environment``
+ 
+An **Action** object contains
+
+- parameters
+- dependancies
+- description of the action
+- reference to Actor
+
+## Actors
+
+An **Actor** is person or machine that can perform an **Action**.
+
+
 ## Issue Template
 
 ## Issue Set
