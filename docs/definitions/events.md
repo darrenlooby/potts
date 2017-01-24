@@ -6,13 +6,13 @@ This means that an **Event** can be *Triggered* by a new **Issue** being created
 
 ### Object Events
 
-Events that are *Triggered* by change in state of Issues or Actions
+Events that are *Triggered* by change in state of Issues or [**Actions**](/docs/definitions/actions.md)
 
 Used to updated the state of other objects - such as triggering the next action in an issue.
 
 ### Service Events
 
-Events that are *Triggered* by Services, or Webhook Responses.
+Events that are *Triggered* by Services, or [**WebHooks**](/docs/definitions/webhooks.md) Responses.
 
 Used to updated the state of other objects - such as triggering the next action in an issue.
 
