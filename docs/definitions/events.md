@@ -1,6 +1,6 @@
 ## Event
 
-Events are changes of **State** for some **Issue** or **Service**; or points in **Time**.
+Events are changes of [**State**](/docs/definitions/states.md) for some [**Issue**](/docs/definitions/issues.md) or [**Service**](/docs/definitions/services.md); or points in **Time**.
 
 This means that an **Event** can be *Triggered* by a new **Issue** being created, an **Issue** being updated, a point in **Time** being reached, an amount of **Time** elapsing, or after having received a message from a **Service**.
 
