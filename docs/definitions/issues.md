@@ -1,9 +1,9 @@
 ## Issue
 
 An **Issue** is an **Object** which contains
-- a set of parameters that create a [State](/docs/definitions//states.md),
-- [Actions](/docs/definitions//actions.md) that need to be taken, and
-- [References](/docs/definitions/references.md) that can be made.
+- a set of parameters that create a [**State**](/docs/definitions//states.md),
+- [**Actions**](/docs/definitions//actions.md) that need to be taken, and
+- [**References**](/docs/definitions/references.md) that can be made.
 
 ``Design needs to be created``
 ``Design needs to be implemented``
