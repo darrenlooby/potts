@@ -11,4 +11,4 @@ An **Issue** is an **Object** which contains
 
 When an **Issue** is found a number of **Actions** need to be taken to remedy that Issue.
 
-An **Issue** might require a **Reference** which points to move information, evidence, or a physical location.
+An **Issue** might require a **Reference** which points to more information, evidence, or a physical location.
