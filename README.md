@@ -44,7 +44,7 @@ Each [Events](/docs/definitions/events.md) that is *Listened* to is *Handled* by
 
 [Events](/docs/definitions/events.md)
 
-[Handers](/docs/definitions/handers.md)
+[Handlers](/docs/definitions/handlers.md)
 
 ### External Interaction
 
