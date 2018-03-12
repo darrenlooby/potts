@@ -2,9 +2,13 @@
 
 Potts Effort Tracker.
 
-We've taken the concepts of [mechanical turk](https://en.wikipedia.orgwiki/Amazon_Mechanical_Turk), and [event based applications](https://en.wikipedia.org/wiki/Event-driven_programming) and applied them to the problem of planning and tracking effort.
+We've taken the concepts of [Mechanical Turk](https://en.wikipedia.orgwiki/Amazon_Mechanical_Turk), and [Event Based Applications](https://en.wikipedia.org/wiki/Event-driven_programming), and Graph Data and applied them to the problem of planning and tracking effort.
 
-When a thing needs to be done, the overall effort can be complex and involve several people in different teams. Moreover, actions might need to be repeated, or skipped, or added after the initial observation that our thing needs to be done.
+When a thing needs to be done, the overall effort can be complex. It may involve multiple actions, taken by multiple actors, an those actors might be in different groups or have different roles.
+
+Some of those actors may be human, requiring an interface - and others may be machines, requiring an API.
+
+Moreover, actions might need to be repeated, or skipped, or added after the initial observation that our thing needs to be done.
 
 We create an [Issue](/docs/definitions/issues.md) and allow it to *Listen* out for and *Trigger* [Events](/docs/definitions/events.md).
 

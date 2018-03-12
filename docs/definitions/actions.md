@@ -1,6 +1,6 @@
 ## Actions
 
-An **Action** is an **Object** that describes discrete piece of work that needs to be done by single a [Actor](/docs/definitions/actors.md).
+An **Action** is an **Object** that describes discrete piece of work that needs to be done by single [Actor](/docs/definitions/actors.md).
 
 ``Dev: Fix bug``
 ``QA: Test replication of bug``
@@ -15,7 +15,7 @@ An **Action** object contains
 
 ### Action Types
 
-Each Action is given a type Action Types can be created:
+Each Action is given a type - Action Types can be created and reused. For example, Action Types may be:
 
 ``Take Action``, ``Fix Bug``, ``Design Page``, ``Collect Item``.
 
@@ -23,6 +23,8 @@ Each Action is given a type Action Types can be created:
 
 Action Types enable the system to register a Actor or Group of Actors as being able to take or perform said Action.
 
-The Action Type, ``Fix Bug`` could be created a restriction placed on it so that it can only be given to Developers (a group of Actors grouped by a broad discipline).
+The Action Type, ``Fix Bug`` could be created with a rule that it can only be given to Developers (a group of Actors grouped by a broad discipline).
 
 **Actions** are scoped to their parent **Issue** and can *Trigger* **Events** outside of their scope. This means that only their parent **Issue** can alter them, or listen to their state, but Actions are able to *Trigger* outside systems.
+
+[TODO] # (Rules need to be defined)

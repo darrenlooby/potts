@@ -5,3 +5,5 @@ A **Reference** is a datum that links an [Issue](/issues.md), [Action](/actions.
 ``The bug can be found *here*``
 
 ``This person (Actor) works in Marketing``
+
+**References** can either be simple string data, or can be *parsable* such as a URL.
