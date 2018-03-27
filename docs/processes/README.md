@@ -10,6 +10,8 @@ These are the processes that Potts should be able to manage
 * Task Queue
 * Call List
 * Working Scedule
+* Vote
+* Ask questions
 
 #### Personal Use
 
